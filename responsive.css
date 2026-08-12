@@ -1,0 +1,281 @@
+/* =========================
+   TABLET
+   701px - 900px
+========================= */
+
+@media (max-width: 900px) {
+
+    header {
+        padding: 18px 25px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero h2 {
+        font-size: 45px;
+    }
+
+    .profile {
+        gap: 25px;
+        padding: 25px;
+    }
+
+    .profile img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .hero1 video {
+        width: 90%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================
+   PHONE
+   700px BELOW
+========================= */
+
+@media (max-width: 700px) {
+
+    /* HEADER */
+
+    header {
+        position: sticky;
+
+        flex-direction: column;
+
+        padding: 15px 10px;
+
+        gap: 12px;
+    }
+
+    header h1 {
+        font-size: 22px;
+
+        text-align: center;
+    }
+
+    /* NAVIGATION */
+
+    nav {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 5px;
+    }
+
+    nav a {
+        text-align: center;
+
+        padding: 9px 5px;
+
+        font-size: 13px;
+
+        border: 1px solid #333;
+    }
+
+    /* MAIN */
+
+    main {
+        width: 94%;
+
+        padding: 20px 0;
+    }
+
+    /* HOME */
+
+    .hero {
+        min-height: auto;
+
+        margin-bottom: 30px;
+
+        padding: 40px 15px;
+
+        border-radius: 15px;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .welcome-text {
+        font-size: 16px;
+
+        margin-bottom: 25px;
+    }
+
+    /* PROFILE */
+
+    .profile {
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 25px 15px;
+
+        width: 100%;
+    }
+
+    .profile img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .profile-info {
+        text-align: center;
+
+        max-width: 100%;
+    }
+
+    .profile-info h4 {
+        font-size: 21px;
+    }
+
+    .profile-info p {
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+    .profile-info button {
+        padding: 11px 20px;
+
+        font-size: 14px;
+    }
+
+    /* VIDEO */
+
+    .hero1 {
+        min-height: auto;
+
+        padding: 30px 10px;
+
+        margin-bottom: 30px;
+    }
+
+    .hero1 h2 {
+        font-size: 27px;
+    }
+
+    .hero1 video {
+        width: 100%;
+
+        margin-top: 15px;
+
+        border-width: 2px;
+    }
+
+    /* MUSIC */
+
+    .music-section {
+        padding: 20px 10px;
+
+        margin-bottom: 25px;
+    }
+
+    .music-section h2 {
+        font-size: 25px;
+    }
+
+    .music-section iframe {
+        width: 100%;
+
+        height: 352px;
+    }
+
+    /* PICTURES */
+
+    .pictures-section {
+        padding: 20px 12px;
+    }
+
+    .pictures-section h2 {
+        font-size: 25px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .gallery img {
+        height: 250px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 15px 10px;
+
+        font-size: 13px;
+    }
+}
+
+/* =========================
+   SMALL PHONE
+   400px BELOW
+========================= */
+
+@media (max-width: 400px) {
+
+    header h1 {
+        font-size: 19px;
+    }
+
+    nav a {
+        font-size: 11px;
+
+        padding: 8px 3px;
+    }
+
+    .hero {
+        padding: 30px 10px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .profile img {
+        width: 145px;
+        height: 145px;
+    }
+
+    .profile-info h4 {
+        font-size: 19px;
+    }
+
+    .profile-info p {
+        font-size: 13px;
+    }
+
+    .hero1 h2 {
+        font-size: 23px;
+    }
+
+    .gallery img {
+        height: 220px;
+    }
+}
